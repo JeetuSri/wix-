@@ -1,0 +1,10 @@
+
+  <h1>Login</h1>
+
+{{msg}}
+
+<form>
+  <input type="text" [(ngModel)]="user.username" name="username" required>
+  <input type="tex" [(ngModel)]="user.password" name="password" required>
+<button class="button" (click)="login(user)">Login</button>
+</form>
